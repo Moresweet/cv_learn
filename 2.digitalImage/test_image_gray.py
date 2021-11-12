@@ -11,7 +11,7 @@ from PIL import Image
 import cv2
 
 # 灰度化
-img = cv2.imread("lenna.png")
+img = cv2.imread("../lenna.png")
 h,w = img.shape[:2]                               #获取图片的high和wide
 img_gray = np.zeros([h,w],img.dtype)                   #创建一张和当前图片大小一样的单通道图片
 for i in range(h):

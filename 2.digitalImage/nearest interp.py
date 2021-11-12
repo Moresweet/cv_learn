@@ -13,7 +13,7 @@ def function(img):
             emptyImage[i,j]=img[x,y]
     return emptyImage
 
-img=cv2.imread("lenna.png")
+img=cv2.imread("../lenna.png")
 zoom=function(img)
 print(zoom)
 print(zoom.shape)

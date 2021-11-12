@@ -13,7 +13,7 @@ dst：默认即可
 '''
 
 # 获取灰度图像
-img = cv2.imread("lenna.png", 1)
+img = cv2.imread("../lenna.png", 1)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #cv2.imshow("image_gray", gray)
 

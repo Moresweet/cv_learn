@@ -15,7 +15,7 @@ ranges：横轴范围
 
 # 灰度图像直方图
 # 获取灰度图像
-img = cv2.imread("lenna.png", 1)
+img = cv2.imread("../lenna.png", 1)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #cv2.imshow("image_gray", gray)
 

@@ -3,7 +3,7 @@
 
 import matplotlib.pyplot as plt
 import sklearn.decomposition as dp
-from sklearn.datasets.base import load_iris
+from sklearn.datasets._base  import load_iris
 
 x,y=load_iris(return_X_y=True) #加载数据，x表示数据集中的属性数据，y表示数据标签
 pca=dp.PCA(n_components=2) #加载pca算法，设置降维后主成分数目为2
