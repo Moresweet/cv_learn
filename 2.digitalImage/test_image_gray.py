@@ -24,7 +24,7 @@ cv2.imshow("image show gray",img_gray)
 
 
 plt.subplot(221)
-img = plt.imread("lenna.png") 
+img = plt.imread("../lenna.png")
 # img = cv2.imread("lenna.png", False) 
 plt.imshow(img)
 print("---image lenna----")
