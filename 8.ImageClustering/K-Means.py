@@ -21,7 +21,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #读取原始图像灰度颜色
-img = cv2.imread('lenna.png', 0) 
+img = cv2.imread('../lenna.png', 0)
 print (img.shape)
 
 #获取图像高度、宽度
