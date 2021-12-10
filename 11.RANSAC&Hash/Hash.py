@@ -54,7 +54,7 @@ def cmpHash(hash1,hash2):
             n=n+1
     return n
  
-img1=cv2.imread('lenna.png')
+img1=cv2.imread('../lenna.png')
 img2=cv2.imread('lenna_noise.png')
 hash1= aHash(img1)
 hash2= aHash(img2)

@@ -60,7 +60,7 @@ def ransac(data, model, n, k, t, d, debug = False, return_all = False):
         if debug:
             print ('test_err.min()',test_err.min())
             print ('test_err.max()',test_err.max())
-            print ('numpy.mean(test_err)',numpy.mean(test_err))
+            print ('numpy.mean(test_err)',np.mean(test_err))
             print ('iteration %d:len(alsoinliers) = %d' %(iterations, len(also_inliers)) )
         # if len(also_inliers > d):
         print('d = ', d)
