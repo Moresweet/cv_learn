@@ -10,7 +10,7 @@ AlexNet是2012年ImageNet竞赛冠军获得者Hinton和他的学生Alex Krizhevs
 
 **原网络结构：**
 
-![img](./imgs/format,png)
+![img](./imgs/format.png)
 
 这个原述解释的是上面一半与下面一半分别跑在不同的GPU上，所以将原生网络简化成下面结构，来具体看看中间的过程如何计算。
 
